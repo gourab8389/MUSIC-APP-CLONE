@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: bisque;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* font-family: 'Oswald', sans-serif; */
+font-family: 'Ubuntu', sans-serif;
+/* font-family: 'Varela Round', sans-serif; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: wheat;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+            width: 60px;
+            padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+   background-image: url('../bg.jpg') ;
+
+}
+h1{
+    text-size-adjust: 10px;
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+}
+.icons{
+        cursor: pointer;
+}
+#myprogressBar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.songItemContaner{
+    margin-top: 74px;
+
+}
+.songItem{
+        height: 80px;
+        display: flex;
+        background-color: rgb(222, 216, 51);
+        color: black;
+        margin: 20px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 24px;
+}
+.songItem img{
+            width: 80px;
+            margin: 0 23px;
+            border-radius: 40px;
+
+}
+.timestamp{
+    margin: 0 23px;
+    padding: 2px;
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songInfo{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(4, 62, 81);
+    }
+  }
